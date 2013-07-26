@@ -1,16 +1,38 @@
 <html>
 <body>
-
-<div class='header'><h1>Home</h1></div>
-<div class='search-view'>
-<input class='search-key' type="text"/>
-<ul class='employee-list'></ul>
+<link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css">
+<div class='header'><h1>Inicio</h1></div>
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Enrique X
+        </h3>
+    </div>
+    <div data-role="content">
+        <form action="">
+            <div data-role="fieldcontain">
+                <label for="textinput1">
+                    Cuenta
+                </label>
+                <input name="nombre" id="textinput1" placeholder="nombre de la cuenta"
+                value="" type="text">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="textinput2">
+                    Cantidad
+                </label>
+                <input name="monto" id="textinput2" placeholder="cantidad " value="" type="text">
+            </div>
+        </form>
+    </div>
 </div>
 
 <script src="phonegap.js"></script>
-<script src="lib/jquery-1.8.2.min.js"></script>
-<script src="js/storage/memory-store.js"></script>
-<script src="js/main.js"></script>
+<script src="lib/jquery-1.9.1.min.js"></script>
+<script src="lib/jquery.mobile-1.3.2.min.js"></script>
+<!--<script src="js/storage/memory-store.js"></script>
+<script src="js/main.js"></script>-->
 
 </body>
 </html>
