@@ -2,3 +2,24 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/ 
+---
+spring:
+  profiles: sujeto
+words: Yo, Tu, El, Ella
+---
+spring:
+  profiles: verbo
+words: corre,conoce,tiene,ve,compra
+---
+spring:
+  profiles: articulo
+words: un,el
+---
+spring:
+  profiles: adjetivo
+words: ordinario,sospechoso,asombroso
+---
+spring:
+  profiles: sustantivo
+words: bote, libro, carro 
+    
