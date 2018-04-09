@@ -22,4 +22,7 @@ words: ordinario,sospechoso,asombroso
 spring:
   profiles: sustantivo
 words: bote, libro, carro 
-    
+---
+spring:
+  profiles: sustantivo-frio
+words: hielo, refrigerador, congelador   
