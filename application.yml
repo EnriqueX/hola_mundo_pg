@@ -5,7 +5,7 @@ eureka:
 ---
 spring:
   profiles: sujeto
-words: Yo, Tu, El, Ella
+words: Eso, XXX
 ---
 spring:
   profiles: verbo
